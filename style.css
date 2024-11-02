@@ -59,3 +59,25 @@ p {
     max-width: 30rem;    /* Take 60% width until maxwidth is achieved */
 }
 
+h2
+{
+    text-transform: uppercase;
+    height: 3rem;
+    color: var(--dark);
+    text-align: center;
+}
+
+.input
+{
+    position: relative;
+    display: flex;
+}
+
+.input-field
+{
+    width: 100%;
+    border: 0.06rem, solid #d2d2d2df;
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+    font-size: 1rem;
+}
