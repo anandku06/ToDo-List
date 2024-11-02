@@ -94,4 +94,39 @@ ul {
   overflow-y: scroll; /* If div is full then it'll give a vertical scrollbar */
 }
 
+li {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding: 1.3rem;
+}
+
+#todoList p {
+  color: #8f98a8;
+}
+
+.disabled {
+  display: flex;
+  text-decoration: line-through;
+}
+
+input[type="checkbox"]::before {
+  /* Targetting the input field of type checkbox before clicking on it */
+  content: "\2713";
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.7rem;
+  text-align: center;
+  border: 0.06rem solid var(--grey-border);
+  border-radius: 50%;
+  color: transparent;
+}
+
+input[type="checkbox"]::before::after {
+    color: var(--white);
+    background-color: var(--green);
+    border: 0.06rem solid var(--green);
+    border-radius: 50%;
+}
 
