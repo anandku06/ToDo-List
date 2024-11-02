@@ -1,6 +1,6 @@
 let todo = JSON.parse(localStorage.getItem("todo")) || [];
 
-const todoInput = document.getElementsById("todoInput");
+const todoInput = document.getElementById("todoInput");
 
 const todolist = document.getElementById("todoList");
 const todoCount = document.getElementById("todoCount");
@@ -26,12 +26,18 @@ function addTask() {
         text: newTask, 
         disabled: false
     });
-    saveToLocalStorage()
+    saveToLocalStorage();
     todoInput.value = "";
-    displayTasks()
+    displayTasks();
   }
 }
 
 function saveToLocalStorage(){
     localStorage.setItem("todo", JSON.stringify(todo))
 }
+
+function deleteAllTasks(){
+
+}
+
+function displayTasks(){}
