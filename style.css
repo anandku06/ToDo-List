@@ -45,6 +45,16 @@ p {
   margin: 0;
 }
 
+button{
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
 .todo {
   display: flex;
   flex-direction: column;
@@ -130,3 +140,24 @@ input[type="checkbox"]::before::after {
     border-radius: 50%;
 }
 
+.counter{
+    border: 0.06rem solid var(--grey-light);
+}
+
+.counter-container{
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    color: var(--grey);
+}
+
+.counter-container p{
+    align-self: center;
+}
+
+.counter-container button{
+    border: none;
+    background-color: transparent;
+    color: var(--grey);
+    font-size: 1rem;
+}
