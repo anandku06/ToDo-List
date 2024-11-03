@@ -18,7 +18,7 @@ A simple and efficient Todo List application that helps you organize and manage 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/todo-list-app.git
+   git clone https://github.com/anandku06/ToDo-List.git
    cd todo-list-app
    ```
 
