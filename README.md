@@ -22,11 +22,6 @@ A simple and efficient Todo List application that helps you organize and manage 
    cd todo-list-app
    ```
 
-2. **Install dependencies** (for backend support):
-   ```bash
-   npm install
-   ```
-
 3. **Start the app:**
    - **Frontend only:** Open `index.html` in your browser.
 
